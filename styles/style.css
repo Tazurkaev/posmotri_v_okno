@@ -103,16 +103,10 @@ align-items: end;
   border: 1px solid #fff;
 }
 
-/* .content__list-item:focus-visible {
-  outline: 1px solid #fff;
-  outline-offset: 2px;
-} */
-
 .content__video-card-thumbnail {
   width: 180px;
   height: 103px;
 }
-
 
 .content__accent {
   color: #545050;
@@ -120,7 +114,7 @@ align-items: end;
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -131,7 +125,7 @@ align-items: end;
 
 .content__video-card-description {
   color: #FFF;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -146,7 +140,7 @@ align-items: end;
 
 .search-form__fieldset-title {
   color: #FFF;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -155,7 +149,7 @@ align-items: end;
 
 .title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -197,7 +191,7 @@ align-items: end;
   cursor: pointer;
 }
 
-input[type="checkbox"]:checked + span::before {
+.search-form__checkbox:checked + span::before {
   display: block;
   background-color: #fff;
   width: 15px;
@@ -219,7 +213,7 @@ input[type="checkbox"]:checked + span::before {
 .button {
   color: #FFF;
   text-align: center;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -249,7 +243,7 @@ input[type="checkbox"]:checked + span::before {
 
 .search-form__textfield {
   color: rgba(255, 255, 255, 0.70);
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -272,7 +266,7 @@ input[type="checkbox"]:checked + span::before {
 
 .search-form__label-text {
   color: #FFF;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
