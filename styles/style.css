@@ -114,7 +114,7 @@ align-items: end;
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', Arial, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -149,7 +149,7 @@ align-items: end;
 
 .title {
   color: #FFF;
-  font-family: Oswald, sans-serif;
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
